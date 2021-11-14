@@ -5,7 +5,7 @@ import org.openqa.selenium.WebDriver;
 import java.util.Random;
 
 public class SearchResultPage extends BasePage{
-    By showMoreButton = By.cssSelector("#divModels > div:nth-child(10) > div > div.paging-process > a");
+    By showMoreButton = By.cssSelector("//*[@id=\\\"divModels\\\"]/div[7]/div/div[4]/a");
     By body = By.xpath("/html/body");
 
     public SearchResultPage(WebDriver webDriver) {

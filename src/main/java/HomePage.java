@@ -5,7 +5,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class HomePage extends BasePage{
     By mainBy = By.xpath("/html/body");
-    By closeCookiesButtonBy = By.xpath("/html/body/div[5]/div/div[2]/div/button");
+    By closeCookiesButtonBy = By.xpath("//*[@id=\\\"footer_container\\\"]/div[2]/div/p[3]/button");
 
     public HomePage(WebDriver webDriver) {
         super(webDriver);

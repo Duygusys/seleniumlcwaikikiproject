@@ -4,9 +4,9 @@ import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 
 public class BasePage extends WebDriverHelper{
-    By loginOrRegisterButtonBy = By.xpath("//*[@id=\"header-profile-section\"]/div");
-    By loginButtonBy = By.xpath("//*[@id=\"header-profile-section\"]/div");
-    By searchBoxBy = By.xpath("//*[@id=\"search\"]");
+    By loginOrRegisterButtonBy = By.xpath("//*[@class=\"header-section\"]/div");
+    By loginButtonBy = By.xpath("//*[@class=\"header-section\"]/div");
+    By searchBoxBy = By.xpath("//*[@id=\"search_input\"]");
 
 
 
